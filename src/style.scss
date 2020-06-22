@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Josefin Sans';
+  font-size: 64px;
+}
+
+.icons {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 32px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+  }
+}
